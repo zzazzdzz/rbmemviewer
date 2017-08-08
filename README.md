@@ -14,11 +14,11 @@ Or, if you feel adventurous, you can compile it all by yourself! After setting u
 While the application is running, start up your preferred emulator, load up your preferred Gen I Pokémon game and view the Trainer Card. This will allow the application to synchronize with the emulator. Once it's done, you can do whatever you want in the game.
 
 # Controls
-Left/right arrow keys: Move current address by -1/+1
-Up/down arrow keys: Go up/down a single row
-PgUp/PgDn: Go up/down an entire screen
-W/S: Change number of rows (default 18, maximum 24, minimum 2)
-A/D: Change number of columns (default 20, maximum 30, minimum 4)
+- Left/right arrow keys: Move current address by -1/+1
+- Up/down arrow keys: Go up/down a single row
+- PgUp/PgDn: Go up/down an entire screen
+- W/S: Change number of rows (default 18, maximum 24, minimum 2)
+- A/D: Change number of columns (default 20, maximum 30, minimum 4)
 
 # Shameless todo list
 - Support for different tilesets (or better yet - read the tileset data in real time from VRAM)
