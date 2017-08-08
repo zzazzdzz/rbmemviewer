@@ -28,7 +28,7 @@ void createWindow(HINSTANCE hInst, int nShow){
     RECT wndRect = {0, 0, W, H};
     AdjustWindowRect(&wndRect, wndStyle, FALSE);
     mainWindow = CreateWindow(windowClassName, 
-                              "PokeMemViewer", wndStyle, 100, 100, 
+                              "RBMemViewer", wndStyle, 100, 100, 
                               wndRect.right - wndRect.left, 
                               wndRect.bottom - wndRect.top,
                               NULL, NULL, hInst, NULL);
